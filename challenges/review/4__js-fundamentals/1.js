@@ -12,5 +12,7 @@ function divisibleByThree(num){
 }
 console.log(divisibleByThree(9));
 console.log(divisibleByThree(12));
+console.log(divisibleByThree(18));
 console.log(divisibleByThree(1));
 console.log(divisibleByThree(2));
+console.log(divisibleByThree(85203));
