@@ -3,8 +3,8 @@
 // even if you ran it a few minutes or hours later.
 function minutesFromMidnight(){
   let midnight = new Date();
+  // console.log(midnigh);
   const minutes = (midnight.getHours() * 60)+ midnight.getMinutes();
-  // console.log((midnight.getHours() * 60)+ midnight.getMinutes());
   return "It has been " + minutes + " minutes from midnight."
 }
 console.log(minutesFromMidnight());
